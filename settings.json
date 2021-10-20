@@ -1,8 +1,8 @@
 {
-"autoread": false,
+"autoread": true,
 "autoplaymusic": true,
-"autocomposing": false,
-"autorecording": false,
+"autocomposing": true,
+"autorecording": true,
 "NamaBot":"YUI-BOTZ", 
 "NomorOwner":"6285608625102", 
 "NamaOwner":"LeonGanz", 
