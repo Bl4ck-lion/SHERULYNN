@@ -320,11 +320,11 @@ try {
 		}
 		if (antibot === true) return
 		const katalog = (teks) => {
-             res = denz.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_©LeonGanz_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
+             res = denz.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_© S H E R L Y N N_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
              denz.relayWAMessage(res)
         }
         const grupinv = (teks) => {
-        	grup = denz.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/LpUecdSHK4mEzLqrSKrnMJ', "groupName": `${NamaBot}`, "footerText": "*_©LeonGanz_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
+        	grup = denz.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/JI25LDtPW784GAZoRD9fW9', "groupName": `${NamaBot}`, "footerText": "*_© S H E R L Y N N_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
             denz.relayWAMessage(grup)
         }
 		idttt = []
@@ -1005,10 +1005,10 @@ if (budy.startsWith('Denz')){
 sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*_© KurrXd_*", [{buttonId: 'igm', buttonText: {displayText: 'Instagram'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 }
 if(isButton == 'igm'){
-reply('http://instagram.com/kurrsadboy')
+reply('http://instagram.com/leonvx._')
 }
 if(isButton == 'ytm'){
-reply('http://youtube.com/c/KurrXd')
+reply('http://youtube.com/c/LeonGanz')
 }
 
    const sotoy = [
@@ -1474,7 +1474,7 @@ mhan = await denz.prepareMessage(from, pporigi, image, {thumbnail: pporigi})
 const btnBngsat = {
 imageMessage: mhan.message.imageMessage,
 contentText: `${menunya}`,
-footerText: `YUI BOTZ`,
+footerText: `S H E R L Y N N 右`,
 buttons: gbutsan,
 headerType: 4
 }
@@ -1504,7 +1504,7 @@ mhan = await denz.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const sendBtnVeryy = {
 imageMessage: mhan.message.imageMessage,
 contentText:`${jancok}`,
-footerText:'Terimakasih Sudah Mendaftar\n*_©LeonGanz_*', 
+footerText:'Terimakasih Sudah Mendaftar\n*_© SHERLYNN_*', 
 buttons: gbutsan,
 headerType: 4
 }
@@ -1517,7 +1517,7 @@ case 'command':
  stod = `${sender}`
  listMsg = {
  buttonText: 'LIST MENU',
- footerText: '*_©LeonGanz_*',
+ footerText: '*_© S H E R L Y N N_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
@@ -2019,7 +2019,7 @@ mhan = await denz.prepareMessage(from, buff, image, {thumbnail: buff})
 const buttonMessagessss = {
 imageMessage: mhan.message.imageMessage,
 contentText: `Ngedark Bos`,
-footerText: '*_©LOLHUMAN X LEON_*',
+footerText: '*_©Yuzzu Kamiyaka_*',
 buttons: gbutsan,
 headerType: 4
 }
@@ -2759,7 +2759,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygelud = {
     contentText: `${anu}`,
-    footerText: '*_©LeonGanz_*',
+    footerText: '*_©SHERLYNN_*',
     buttons: buttons,
     headerType: 1
 }
@@ -2779,7 +2779,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setallmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setallmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygf = {
     contentText: `${anu}`,
-    footerText: '*_©LeonGanz_*',
+    footerText: '*_©SHERLYNN_*',
     buttons: buttons,
     headerType: 1
 }
@@ -2843,7 +2843,7 @@ for (let i of ownerNumber) {
 const vname = denz.contacts[i] != undefined ? denz.contacts[i].vname || denz.contacts[i].notify : undefined
 ini_list.push({
 "displayName": `Developer ${NamaBot}`,
-"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;LeonGanz;;;\nFN:${vname ? `${vname}` : `${denz.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;KurrXd;;;\nFN:${vname ? `${vname}` : `${denz.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
 denz.sendMessage(from, {
@@ -2894,7 +2894,7 @@ break
 ]
 const btnskuy = {
     contentText: `${anu}`,
-    footerText: '*_©LeonGanz_*',
+    footerText: '*_©SHERLYNN_*',
     buttons: buttons,
     headerType: 1
 }
@@ -2971,7 +2971,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
       {
         "urlButton": {
           "displayText": `Script ${NamaBot}`,
-          "url": "https://github.com/KurrXd"
+          "url": "https://github.com/Bl4ck-lion"
         },
         "index": 0
       }
@@ -3123,7 +3123,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 const buttons = [{buttonId: 'autorespon on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'autorespon off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const btnharam = {
     contentText: `${anu}`,
-    footerText: '*_©LeonGanz_*',
+    footerText: '*_©SHERLYNN_*',
     buttons: buttons,
     headerType: 1
 }
@@ -3143,7 +3143,7 @@ await denz.sendMessage(from, btnharam, MessageType.buttonsMessage, {quoted: ftro
 const buttons = [{buttonId: 'antideletee on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'antideletee off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const buttonMessage = {
     contentText: `${anu}`,
-    footerText: '*_©LeonGanz_*',
+    footerText: '*_©SHERLYNN_*',
     buttons: buttons,
     headerType: 1
 }
@@ -3717,7 +3717,7 @@ encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.exten
 punten = [{buttonId: 'antilink off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antilink on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*_©LeonGanz_*',
+    footerText: '*_©SHERLYNN_*',
     buttons: punten,
     headerType: 1
 }
@@ -4858,63 +4858,66 @@ break
 					exif.create(namaPack, authorPack)
 					await reply('Done gan')
 				break
-	       case 'gifstiker':
-				case 's':
-			case 'stickergif':  
 				case 'sticker':
-				  case 'stiker':
-					     if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
-            const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-            const media = await dha.downloadAndSaveMediaMessage(encmedia)
-                ran = '666.webp'
-                await ffmpeg(`./${media}`)
-                .input(media)
-                .on('start', function (cmd) {
-                     console.log(`Started : ${cmd}`)
-                })
-                .on('error', function (err) {
-                 console.log(`Error : ${err}`)
-                fs.unlinkSync(media)
-                reply('error')
-                })
-                .on('end', function () {
-                console.log('Finish')
-                dha.sendMessage(from, fs.readFileSync(ran), sticker, {quoted: mek})
-                 fs.unlinkSync(media)
-                fs.unlinkSync(ran)
-                })
-                .addOutputOptions([`-vcodec`, `libwebp`, `-vf`, `scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse`])
-                .toFormat('webp')
-                .save(ran)
-                } else if ((isMedia && mek.message.videoMessage.seconds < 11 || isQuotedVideo && mek.message.extendedTextMessage.contextInfo.quotedMessage.videoMessage.seconds < 11) && args.length == 0) {
-                const encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-                const media = await dha.downloadAndSaveMediaMessage(encmedia)
-            ran = '999.webp'
-            reply(mess.wait)
-            await ffmpeg(`./${media}`)
-            .inputFormat(media)('.')[1])
-            .on('start', function (cmd) {
-            console.log(`Started : ${cmd}`)
-            })
-            .on('error', function (err) {
-            console.log(`Error : ${err}`)
-            fs.unlinkSync(media)
-            tipe = media.endsWith('.mp4') ? 'video' : 'gif'
-            reply(`Gagal, pada saat mengkonversi ${tipe} ke stiker`)
-            })
-            .on('end', function () {
-            console.log('Finish')
-            dha.sendMessage(from, fs.readFileSync(ran), sticker, {quoted: mek})
-            fs.unlinkSync(media)
-            fs.unlinkSync(ran)
-                })
-                .addOutputOptions([`-vcodec`, `libwebp`, `-vf`, `scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse`])
-                .toFormat('webp')
-                .save(ran)
-            } else {
-                reply(`Kirim gambar dengan caption ${prefix}sticker\nDurasi Sticker Video 1-9 Detik`)
-            }
-            break               
+					case 'stiker':
+					case 's':
+              if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+						if (isMedia && !mek.message.videoMessage || isQuotedImage) {
+							const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+							const media = await denz.downloadAndSaveMediaMessage(encmedia, `./sticker/${sender}`)
+							await ffmpeg(`${media}`)
+									.input(media)
+									.on('start', function (cmd) {
+										console.log(`Started : ${cmd}`)
+									})
+									.on('error', function (err) {
+										console.log(`Error : ${err}`)
+										fs.unlinkSync(media)
+										reply(mess.error.api)
+									})
+									.on('end', function () {
+										console.log('Finish')
+										exec(`webpmux -set exif ./sticker/data.exif ./sticker/${sender}.webp -o ./sticker/${sender}.webp`, async (error) => {
+											if (error) return reply(mess.error.api)
+											denz.sendMessage(from, fs.readFileSync(`./sticker/${sender}.webp`), sticker, {quoted: mek})
+											fs.unlinkSync(media)	
+											fs.unlinkSync(`./sticker/${sender}.webp`)	
+										})
+									})
+									.addOutputOptions([`-vcodec`,`libwebp`,`-vf`,`scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse`])
+									.toFormat('webp')
+									.save(`./sticker/${sender}.webp`)
+						} else if ((isMedia && mek.message.videoMessage.fileLength < 10000000 || isQuotedVideo && mek.message.extendedTextMessage.contextInfo.quotedMessage.videoMessage.fileLength < 10000000)) {
+							const encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+							const media = await denz.downloadAndSaveMediaMessage(encmedia, `./sticker/${sender}`)
+							sticWait(from)
+								await ffmpeg(`${media}`)
+									.inputFormat(media.split('.')[4])
+									.on('start', function (cmd) {
+										console.log(`Started : ${cmd}`)
+									})
+									.on('error', function (err) {
+										console.log(`Error : ${err}`)
+										fs.unlinkSync(media)
+										tipe = media.endsWith('.mp4') ? 'video' : 'gif'
+										reply(mess.error.api)
+									})
+									.on('end', function () {
+										console.log('Finish')
+										exec(`webpmux -set exif ./sticker/data.exif ./sticker/${sender}.webp -o ./sticker/${sender}.webp`, async (error) => {
+											if (error) return reply(mess.error.api)
+											denz.sendMessage(from, fs.readFileSync(`./sticker/${sender}.webp`), sticker, {quoted: mek})
+											fs.unlinkSync(media)
+											fs.unlinkSync(`./sticker/${sender}.webp`)
+										})
+									})
+									.addOutputOptions([`-vcodec`,`libwebp`,`-vf`,`scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse`])
+									.toFormat('webp')
+									.save(`./sticker/${sender}.webp`)
+						} else {
+							reply(`Kirim gambar/video dengan caption ${prefix}sticker atau tag gambar/video yang sudah dikirim\nNote : Durasi video maximal 10 detik`)
+						}
+						break
 					case 'stickerwm':
 					case 'swm':
               if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
@@ -5240,7 +5243,7 @@ break
 punten = [{buttonId: 'welcome off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'welcome on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btngrass = {
     contentText: `${anu}`,
-    footerText: '*_©LOLHUMAN X LEON_*',
+    footerText: '*_©Yuzzu Kamiyaka_*',
     buttons: punten,
     headerType: 1
 }
@@ -5448,7 +5451,7 @@ Giliran = @${tty.player1.split('@')[0]}`
             if (!e.includes("Cannot set property 'mtype' of undefined")) {
             if (!e.includes("jid is not defined")) {
      console.log(color('|ERR|', 'red'), color(e, 'cyan'))
-     denz.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer S H E R L Y N N",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/p/6349482305092740/6281220670449"}}})
+     denz.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Yui-Botz",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/p/6349482305092740/6281220670449"}}})
 	}
     }
     }
